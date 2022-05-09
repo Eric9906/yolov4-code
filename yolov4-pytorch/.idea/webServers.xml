@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="85c534ff-7cb0-4f1c-85b1-9d4523e234ef" name="gpushare">
+        <fileTransfer accessType="SFTP" host="i-1.gpushare.com" port="11461" sshConfigId="1a5d0ad0-c82c-4254-ae4d-a4645990975b" sshConfig="root@i-1.gpushare.com:11461 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="270082da-6a31-43b9-b8aa-ed9a125a22e6" name="yolov4water">
+        <fileTransfer accessType="SFTP" host="10.9.21.29" port="22" sshConfigId="cd641d7c-49d1-413d-ba59-524f16085701" sshConfig="zhoujili@10.9.21.29:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
